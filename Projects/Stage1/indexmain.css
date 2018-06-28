@@ -1,0 +1,368 @@
+body {	
+    background: url(FIRE.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#TitleDiv {
+    background: url(BLACKWOOD.jpg) no-repeat center center;
+    background-position: center;
+    background-size: cover;    
+}
+
+#BannerHead h1 {
+    margin-top: 0px;
+	text-align: center;
+	color: #FF8C00;
+    font-size: 15em;
+    text-shadow: #000 0px 0px 6px;
+}
+
+.panel a {
+    color: #FF7F50;
+    font-size: 1.75em;    
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.panel {	
+    background-size:100% 100%;
+    height:125px;
+    background: transparent;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: -35px;
+             
+}
+
+.pull-me{
+    -webkit-box-shadow: 0 0 8px #FF7F50;
+    -moz-box-shadow: 0 0 8px #FF7F50;
+    box-shadow: 0 0 8px #FF7F50;
+    cursor:pointer;    
+}
+
+
+.slide {
+	margin:0;
+	padding:0;
+	border-top:solid 2px #FF7F50;    
+}
+
+
+#divcenter {
+width: 100%;
+text-align: center;
+}
+
+.pull-me {
+	display: inline-block;
+    position: center;
+    text-align: center;
+    right:-25px;
+    width:175px;
+    height:40px;
+	font-family:arial,sans-serif;
+    font-size:25px;
+	color:yellow;
+    background:#FF7F50;
+	text-decoration:none;
+    -moz-border-bottom-left-radius:5px;
+    -moz-border-bottom-right-radius:5px;
+    border-bottom-left-radius:30px;
+    border-bottom-right-radius:30px;
+}
+
+
+
+#GifOne {
+    border: solid 5px red;
+    margin: auto;
+    width: 480px;
+    height: 261px;
+    margin-top: 100px;
+    background: url(BUTTERFLY1.gif) no-repeat center center;
+    text-align: center;    
+}
+
+
+#HomeTxt {   
+    font-size: 8em;
+    color: #FF4500;
+    line-height: 220px;
+    text-transform: uppercase;   
+}
+
+
+#WelDiv {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    background: #FFE920;
+    border-radius: 20px;
+    border: solid 4px red;
+    margin-top: 100px;
+    padding: 20px;
+    width: 450px;
+}
+
+#GRDiv {
+    margin: auto;
+    text-align: center;    
+    color: #FF0099;
+    display: block;
+    background: #FFE920;
+    border-radius: 20px;
+    border: solid 4px red;
+    padding: 20px;
+    margin-top: 100px;
+    width: 1400px;
+}
+
+#GRDiv h3 {
+    font-size: 2.5em;
+    font-family: Copperplate Gothic Light;
+}
+
+
+
+#ImgOne {
+    margin: auto;
+    width: 1500px;
+    height: 987px;
+    margin-top: 100px;
+    border: solid 4px red;
+    background: url(MULTICOLOR.jpg) no-repeat center center;
+}
+
+#ImgOneTxt {    
+    margin: auto;
+    text-align: center;    
+    background: #FFE920;    
+    margin-top: 200px;
+    padding: 20px;
+    width: 85%;
+    border: solid 3px red;
+}
+
+
+.Growshadow {
+  
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.Growshadow:hover, .Growshadow:focus, .Growshadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+#ImgOneTxt p {
+    font-size: 3.5em;
+    color: #FF0099;
+    font-family: Copperplate Gothic Light; 
+}
+
+#IOT {
+    margin: auto;
+    text-align: center;    
+    background: transparent;    
+    margin-top: 150px;
+    padding: 20px;
+}
+
+.IOTdiv{
+    display: inline-block;
+    border: solid 2px red;
+    margin-top: 100px;
+    margin: 10px;    
+    padding: 20px;
+    text-align: center;
+}
+
+
+.IOTdiv p{
+    font-size: 4em;
+    color: #FF0000;
+    font-family: Copperplate Gothic Light;
+}
+
+
+#Tone {
+    background: #52FF20;
+}
+
+#Ttwo {
+    background: #0000CE;
+}
+
+#Tthree {
+    background: #FF6600;
+}
+
+#Tfour {
+    background: #FF2DFF;
+}
+
+#Tfive {
+    background: #8CEFFD;
+}
+
+#Tsix {
+    background: #CCFF33;
+}
+
+
+
+#ImgTwo {
+    margin: auto;
+    width: 1500px;
+    height: 1002px;
+    margin-top: 100px;
+    border: solid 4px red;
+    background: url(MULTICOLOR.jpg) no-repeat center center;
+}
+
+#ImgTwoTxt {    
+    margin: auto;
+    text-align: center;    
+    background: #FFE920;    
+    margin-top: 125px;
+    padding: 20px;
+    width: 70%;
+    border: solid 3px red;
+}
+
+#ImgTwoTxt p {
+    font-size: 5em;
+    color: #FF0099;
+    font-family: Copperplate Gothic Light;
+}
+
+#ITT {
+    margin: auto;
+    text-align: center;    
+    background: transparent;    
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.ITTdiv{
+    display: inline-block;
+    border: solid 2px red;
+    margin-top: 100px;
+    margin: 10px;
+    background: #FFE920;
+    padding: 20px;
+    text-align: center;
+}
+
+.ITTdiv p{
+    font-size: 4em;
+    color: #FF0000;
+    font-family: Copperplate Gothic Light;
+}
+
+#ImgTwoTxtB {
+    margin: auto;
+    text-align: center;    
+    background: #FFE920;    
+    margin-top: 125px;
+    padding: 20px;
+    width: 45%;
+    border: solid 3px red;
+    font-size: 5em;
+    color: #FF0099;
+    font-family: Copperplate Gothic Light;
+}
+
+
+#ImgThree {
+    margin: auto;
+    width: 564px;
+    height: 520px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: solid 4px red;
+    background: url(LINES.jpg) no-repeat center center;
+}
+
+#ImgThreeTxt {    
+    margin: auto;
+    text-align: center;    
+    background: transparent;    
+    margin-top: 30px;
+    padding: 2px;
+}
+
+#ImgThreeTxt p {
+    font-size: 2em;
+    color: #00FFFF;
+}
+
+#IThT {
+    margin: auto;
+    text-align: center;    
+    background: transparent;    
+    margin-top: 10px;
+    padding: 2px;
+}
+
+#IThTdiv{
+    margin-top: 10px;
+    margin: 10px;
+    background: transparent;
+    padding: 2px;
+    text-align: center;
+}
+
+#IThTdiv p{
+    font-size: 1.3em;
+}
+
+#IThTdiv p a{
+    color: #00FFFF;
+    text-decoration: none;
+}
+
+
+#Drag {
+    position: fixed;
+    width: 149px;
+    height: 279px;
+    background: url(ERocket.gif) no-repeat center center;
+    margin-left: 1750px;
+    margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

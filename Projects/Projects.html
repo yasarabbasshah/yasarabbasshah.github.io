@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>    
+    <script src="js/vendor/angular.min.js"></script>
+    <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="Projects.js"></script>
+    <link rel="stylesheet" href="../AnimateCSS/animate.css-master/animate.css-master/animate.min.css">
+    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" rel="stylesheet" href="Projects.css"/>
+    <link type="text/css" rel="stylesheet" href="Style.css"/>
+    <link type="text/css" href="../hover.css" rel="stylesheet" media="all">
+    <title id="MainTitle">OneSixtyOne-Projects</title>
+
+    <script src='RockPaperScissors/RockPaperScissors.js'></script>
+    <script src='CashRegister/CashRegister.js'></script>
+    <script src='CoinToss/CoinToss.js'></script>
+    <script src='DragonSlayer/DragonSlayer.js'></script>
+    <script src='TrollGame/TrollGame.js'></script>
+
+</head>
+
+<body>
+
+<div id="Top"></div>
+
+<div id="TitleDiv">
+<p>One  Sixty  One</p>
+</div>
+
+<div id="MainLinks">
+        <a class="hvr-pulse" href="../index.html">Home</a>
+        <a class="hvr-pulse" href="../About/About.html">About</a>
+        <a class="hvr-pulse" href="../Mission/Mission.html">Mission</a>
+        <a class="hvr-pulse" href="../CoverLetter/CoverLetter.html">CoverLetter</a>
+        <a class="hvr-pulse" href="../Resume/Resume.html">Resume</a>
+        <a class="hvr-pulse" href="../Projects/Projects.html">Projects</a>
+        <a class="hvr-pulse" href="../LiveThread/LiveThread.html">LiveThread</a>
+        <a class="hvr-pulse" href="../Contact/Contact.html">Contact</a> 
+</div>        
+
+<a href="#Top"><div class="Growshadow" id="Drag"></div></a>
+
+<div id="ProjectsTxt">
+    <p>Projects</p>
+</div>
+
+
+
+
+<div id="WelDiv">
+    <h2 id="Welcome">Below is a list of my completed projects. Click on a project for description and link to the program itself!</h2>
+</div>
+
+
+
+<div id="AllProj">
+
+<button class="accordion">Website Stage 1.</button>
+<div class="panel">            
+                <p>This Home page shows what my website looked like when I first designed it. The design framework and coloring was inspired by outdated websites, and I had also clearly gone very "color-happy".</p>
+                <a id="ProjLink" href="../Projects/Stage1/index.html"><button id="ProjectButton"><strong>Stage 1</strong></button></a>             
+</div>
+
+<button class="accordion">Website Stage 2.</button>
+<div class="panel">            
+                <p>This Home page shows my second revision which occurred after my website had been up for only two days. I learned from my friends constructive criticisms and simplified the color scheme and the framework.</p>
+                <a id="ProjLink" href="../Projects/Stage2/index.html"><button id="ProjectButton"><strong>Stage 2</strong></button></a>            
+</div>
+
+<button class="accordion">Website Stage 3.</button>
+<div class="panel">            
+                <p>Not satisfied with the previous designs, and just one day after second revision, I decided to redesign and rebuild the entire website from scratch. I created this simple, sleek, more modern and sophisticated web design.</p>
+                <a id="ProjLink" href="../Projects/Stage3/index.html"><button id="ProjectButton"><strong>Stage 3</strong></button></a>            
+</div>
+
+<button class="accordion">Meme Generator.</button>
+<div class="panel">            
+                <p>Are you as crazy about memes as I am? Well then you've got a friend in me,me, get it? No? Oh why don't you just meme about it!</p>
+                <a id="ProjLink" href="../Projects/Meme/index.html"><button id="ProjectButton"><strong>Meme</strong></button></a>            
+</div>
+
+<button class="accordion">ToDo List.</button>
+<div class="panel">            
+                <p>Have you ever gone out to get something, and gotten there, and just stood there, all dumbfounded? Well no more, now you can look like a person with purpose! With this ultra cool ToDo List.</p>
+                <a id="ProjLink" href="../Projects/ToDo/index.html"><button id="ProjectButton"><strong>ToDo</strong></button></a>            
+</div>
+
+<button class="accordion">Gym Exercise Log.</button>
+<div class="panel">            
+                <p>Exercising is hard enough, why sweat even more with writing everything down. Now you can just workout and click to save all the hard work you've done. Go ahead, you've earned it!</p>
+                <a id="ProjLink" href="../Projects/GymLog/index.html"><button id="ProjectButton"><strong>GymLog</strong></button></a>            
+</div>
+
+<button class="accordion">Advanced Troll Game.</button>
+<div class="panel">            
+                <p>Can you out smart this ingenious Troll, and teach him a lesson or two?</p>
+                <button id="OCButton" onclick="TG()"><strong>Troll Game</strong></button>             
+</div>
+
+<button class="accordion">Rock, Paper, Scissors.</button>
+<div class="panel">            
+                <p>Test your mad skills against my super intelligent AI</p>
+                <button id="OCButton" onclick="RPS()"><strong>Rock, Paper, Scissors</strong></button>                           
+</div>
+
+<button class="accordion">Dragon Slayer Game.</button>
+<div class="panel">            
+                <p>Are you brave enough to bring down the mighty dragon?</p>
+                <button id="OCButton" onclick="DS()"><strong>DragonSlayer</strong></button>            
+</div>
+
+<button class="accordion">Coin Toss.</button>
+<div class="panel">            
+                <p>Think you've mastered your luck? Think again!</p>
+                <button id="OCButton" onclick="CT()"><strong>Coin Toss</strong></button>            
+</div>
+
+<button class="accordion">Books.</button>
+<div class="panel">            
+                <p>Are you bored, or feel like you haven't accomplished that much today? Well fret no more, because now you can read three brilliant books, right here, right now!</p>
+                <a id="ProjLink" href="../Projects/Books/index.html"><button id="ProjectButton"><strong>Books</strong></button></a>            
+</div>
+
+<button class="accordion">Cash Register.</button>
+<div class="panel">            
+                <p>Ever go grocery shopping and wonder what's taking so long? Well, wonder no more and try shopping with this expedient Cash Register line!</p>
+                <button id="OCButton" onclick="CR()"><strong>Cash Register</strong></button>             
+</div>
+
+</div>
+
+
+
+
+
+
+<div id="SiteMap">
+        <a class="hvr-pulse" href="../index.html">Home</a>
+        <a class="hvr-pulse" href="../About/About.html">About</a>
+        <a class="hvr-pulse" href="../Mission/Mission.html">Mission</a>
+        <a class="hvr-pulse" href="../CoverLetter/CoverLetter.html">CoverLetter</a>
+        <a class="hvr-pulse" href="../Resume/Resume.html">Resume</a>
+        <a class="hvr-pulse" href="../Projects/Projects.html">Projects</a>
+        <a class="hvr-pulse" href="../LiveThread/LiveThread.html">LiveThread</a>
+        <a class="hvr-pulse" href="../Contact/Contact.html">Contact</a> 
+</div>
+
+
+
+<script type="text/javascript" src="Script.js"></script> 
+
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+
+button.accordion {
+    background-color: #0000CE;
+    color: #444;
+    cursor: pointer;
+    padding: 1.125em;
+    width: 25%;
+    border: solid 0.125em #56CBF9;
+    text-align: left;
+    outline: none;
+    font-size: 0.938em;
+    transition: 0.7s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #8CEFFD;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 0.813em;
+    color: #FF8C00;
+    float: right;
+    margin-left: 0.313em;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 1.125em;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1.2s ease-in-out;
+    opacity: 0;
+    width: 85%;    
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 125.000em;
+}
+
+
+button.accordion {
+    font-size: 1.4em;
+    color: #FF8C00;
+    background-color: transparent;
+}
+
+
+.panel p {
+    color: #FF8C00;
+    padding: 0.625em;
+    margin-top: 0.625em;
+    float: left;
+}
+
+#ProjLink {
+    color: #FF8C00;
+    
+}
+
+
+#ProjectButton {
+    background-color: #56CBF9;
+    margin: 0.938em;
+    text-align: center;
+    line-height: auto;
+}
+
+
+#OCButton {
+    color: #FF8C00;
+    background-color: #56CBF9;
+    margin: 0.938em;
+    text-align: center;
+    line-height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

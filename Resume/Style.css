@@ -1,0 +1,113 @@
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 1.125em;
+    width: 25%;
+    border: solid 0.125em #56CBF9;
+    text-align: left;
+    outline: none;
+    font-size: 0.938em;
+    transition: 0.7s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #8CEFFD;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 0.813em;
+    color: #FF8C00;
+    float: right;
+    margin-left: 0.313em;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 1.125em;
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1.2s ease-in-out;
+    opacity: 0;
+    width: 75%;    
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 125.000em;
+}
+
+
+button.accordion {
+    font-size: 1.4em;
+    color: #FF8C00;
+    background-color: transparent;
+}
+
+.panel #Space {
+    margin-top: 0.625em;    
+}
+
+.panel ul {
+    margin-top: 0.625em;    
+}
+
+#JobName {
+    font-size: 1.4em;
+    color: #FF8C00;    
+}
+
+#JobTitle {
+    font-size: 1.2em;
+    color: #FF8C00;    
+}
+
+.panel p {
+    color: #FF8C00;    
+    font-family: Georgia;
+    margin-left: 0.313em;
+}
+
+.panel li {
+    color: #FF8C00;
+    padding: 0.625em;
+    font-family: Georgia;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+html { 
+  background: url(BLACKWOOD2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#TitleDiv {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+    color: #FF8C00;
+    font-size: 12em;
+    text-shadow: #FF8C00 0px 0px 10px;
+}
+
+
+#MainLinks {
+    text-align: center;
+    margin-top: 15px;
+    margin-right: 20px;    
+    float: right;
+    background: transparent;             
+}
+
+#MainLinks a {
+    color: #FF8C00;
+    font-size: 1.2em;    
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    text-shadow: #FF8C00 0px 0px 2px;
+}
+
+
+#HomeTxt {
+    font-size: 5em;
+    color: #FF8C00;    
+    text-transform: uppercase;
+    text-shadow: #FF8C00 0px 0px 5px;
+    margin-left: 50px;
+    margin-top: 10px;
+    clear: both;
+    float: left;  
+}
+
+
+
+
+
+#ImgOne {
+  margin-top: -20px;
+  float:right;
+  height: auto;
+  width: 34.7%;     
+}
+
+#ImgOne img {
+  border: solid 4px #FF8C00;
+  box-shadow: #FF8C00 0px 0px 15px;
+}
+
+
+#BoxOne {
+  clear: both;
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+  width: 55%;
+}
+
+
+
+.PTxt {
+    font-size: 1.5em;
+    color: #FF8C00;
+    font-family: Copperplate Gothic Light;
+}
+
+
+.ITdiv {
+    font-size: 1.5em;
+    color: #FF8C00;
+    font-family: Copperplate Gothic Light;
+}
+
+.ITdiv p {
+    padding-left: 5px;
+    text-shadow: #FF8C00 0px 0px 2px;
+}
+
+
+#SiteMap {
+    text-align: center;
+    margin-top: 100px;
+    margin-right: 20px;
+    clear: both;    
+    float: right;
+    background: transparent;
+}
+
+#SiteMap a {
+    color: #FF8C00;
+    font-size: 1.2em;    
+    padding: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    text-shadow: #FF8C00 0px 0px 2px;
+}
+
+
+.Growshadow {
+  
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.Growshadow:hover, .Growshadow:focus, .Growshadow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+
+#Drag {
+    position: fixed;    
+    background: url(Top.png) no-repeat center center;
+    width: 50px;
+    height: 50px;
+    margin-left: 1840px;
+    margin-top: 865px;
+    clear: both;
+    float: right;
+    border: solid 2px #FF8C00;
+    box-shadow: #FF8C00 0px 0px 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

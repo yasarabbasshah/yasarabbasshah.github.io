@@ -1,0 +1,96 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+div#main{
+font-family: Copperplate Gothic Light;
+color: #FF8C00;
+float: right;
+}
+
+#main {
+	margin-right: 17.188em;
+	margin-top: 2.188em;
+}
+
+div#form_sample{
+text-align:center;
+border:0.063em solid #ccc;
+width:18.750em;
+padding:0 3.125em 0.938em;
+margin-top:1.250em;
+box-shadow:0 0 0.938em;
+border-radius:0.375em;
+float:left
+}
+
+
+
+#main h1{
+margin-top:2.500em
+}
+
+
+hr{
+margin-top:-0.313em
+}
+
+
+label{
+float:left;
+font-size:1.000em
+}
+
+
+input[type="text"]{
+width:100%;
+margin-top:0.625em;
+height:2.188em;
+margin-bottom:1.563em;
+padding:0.625em;
+border:0.188em solid #2BC1F2
+}
+
+
+textarea{
+width:100%;
+border:0.188em solid #2BC1F2;
+margin-bottom:1.563em;
+margin-top:0.625;
+height:6.250em;
+resize:none
+}
+
+
+input[type="submit"]{
+width:100%;
+padding:0.625em 2.813em;
+background-color:#2BC1F2;
+border:none;
+color:#fff;
+font-size:1.125em;
+font-weight:700;
+cursor:pointer;
+font-family: Copperplate Gothic Light;
+}
+
+div#fugo{
+float:right
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
