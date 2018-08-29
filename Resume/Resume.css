@@ -36,28 +36,6 @@ html {
 }
 
 
-#ResumeTxt {
-    font-size: 5em;
-    color: #FF8C00;    
-    text-transform: uppercase;
-    text-shadow: #FF8C00 0em 0em 0.213em;
-    margin-left: 2.125em;
-    margin-top: 0.425em;
-    clear: both;
-    float: left;  
-}
-
-
-#WelDiv {
-    clear: both;    
-    float: left;
-    margin-top: 4.250em;
-    margin-left: 3.125em;
-    font-size: 2.5em;
-    color: #FF8C00;
-    font-family: Copperplate Gothic Light;
-}
-
 
 #TotalAccord {
     clear: both;    
